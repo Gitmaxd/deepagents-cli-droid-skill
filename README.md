@@ -1,14 +1,4 @@
 <div align="center">
-  <img
-    src="https://images.unsplash.com/REPLACE_WITH_PHOTO_ID?w=1200&q=80&auto=format&fit=crop"
-    alt="Deep Agents CLI Droid Skill"
-    width="100%"
-  />
-</div>
-
-<br />
-
-<div align="center">
 
 # deepagents-cli-droid-skill
 
