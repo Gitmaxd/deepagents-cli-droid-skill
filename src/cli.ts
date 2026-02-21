@@ -159,17 +159,6 @@ const main = defineCommand({
   subCommands: {
     init,
   },
-  async run() {
-    const version = await getPackageVersion();
-    console.log(`\nDeep Agents CLI Skill v${version}\n`);
-    console.log('Usage:  npx deepagents-cli-droid-skill init [options]\n');
-    console.log('Options:');
-    console.log('  --path <dir>    Target directory (default: current directory)');
-    console.log('  --personal      Install as personal skill (~/.factory/skills/)');
-    console.log('  --force         Skip existing file checks');
-    console.log('  --help          Show help');
-    console.log('  --version       Show version\n');
-  },
 });
 
 runMain(main);
