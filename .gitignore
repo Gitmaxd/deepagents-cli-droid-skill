@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Factory.ai (development artifacts)
+.factory/
+
+# Development notes
+.notes/
+
+# Test artifacts
+coverage/
+*.tgz
+
+# Environment
+.env
+.env.*
+!.env.example

@@ -1,0 +1,55 @@
+{
+  "name": "deepagents-cli-droid-skill",
+  "version": "0.1.0",
+  "description": "Deep Agents CLI skill for Factory.ai Droid",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "deepagents-cli-droid-skill": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "deepagents",
+    "factory.ai",
+    "droid",
+    "skill",
+    "cli",
+    "langchain",
+    "ai-agents",
+    "deep-agents"
+  ],
+  "author": {
+    "name": "GitMaxd",
+    "url": "https://github.com/Gitmaxd"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gitmaxd/deepagents-cli-droid-skill.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "citty": "^0.1.6",
+    "fs-extra": "^11.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.7.0"
+  }
+}

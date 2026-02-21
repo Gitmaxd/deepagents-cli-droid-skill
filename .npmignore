@@ -1,0 +1,14 @@
+src/
+.github/
+.notes/
+.factory/
+.gitignore
+.npmignore
+tsconfig.json
+tsup.config.ts
+pnpm-lock.yaml
+*.tgz
+coverage/
+.DS_Store
+.vscode/
+.idea/
