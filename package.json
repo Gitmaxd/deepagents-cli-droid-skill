@@ -1,6 +1,6 @@
 {
   "name": "deepagents-cli-droid-skill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deep Agents CLI skill for Factory.ai Droid",
   "type": "module",
   "main": "dist/cli.js",
