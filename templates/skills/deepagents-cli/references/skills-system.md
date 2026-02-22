@@ -155,8 +155,8 @@ deepagents skills delete my-skill -f          # Force delete without confirmatio
 Copy existing skills directly into the skills directory:
 
 ```bash
-mkdir -p ~/.deepagents/<agent>/skills
-cp -r path/to/web-research ~/.deepagents/<agent>/skills/
+mkdir -p ~/.deepagents/default/skills
+cp -r path/to/web-research ~/.deepagents/default/skills/
 ```
 
 ---
@@ -165,7 +165,7 @@ cp -r path/to/web-research ~/.deepagents/<agent>/skills/
 
 | Scope | Location | Purpose |
 |-------|----------|---------|
-| User | `~/.deepagents/<agent>/skills/` | Personal skills, follow you across projects |
+| User | `~/.deepagents/default/skills/` (or `<agent>/` with `-a`) | Personal skills, follow you across projects |
 | Project | `<project-root>/.deepagents/skills/` | Shared with team, project-specific |
 
 ### Directory Structure

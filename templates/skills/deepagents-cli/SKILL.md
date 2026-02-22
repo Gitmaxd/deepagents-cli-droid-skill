@@ -36,10 +36,10 @@ deepagents -r
 
 ### Agents = Isolated Personas
 
-Each agent has its own memory, skills, and AGENTS.md context file:
+Each agent has its own memory, skills, and AGENTS.md context file (`default` agent shown; use `-a <name>` for named agents):
 
 ```
-~/.deepagents/<agent_name>/
+~/.deepagents/default/
 ├── AGENTS.md          # Always-loaded context (preferences, conventions)
 ├── memories/          # Auto-saved topic memories
 └── skills/            # User-level skills
